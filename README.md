@@ -1,2 +1,3 @@
 # AddNotesApp
-Notes App using React(Add, delete functionality)
+Demo here:
+https://addnote-react-app.herokuapp.com/
