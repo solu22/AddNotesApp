@@ -1,0 +1,111 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    
+    padding: 0 16px;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+
+}
+
+header{
+    background-color: black;
+    color: wheat;
+    padding: 16px 32px;
+}
+
+header h1{
+    color:wheat;
+    font-family: 'Recursive', sans-serif;
+    
+}
+
+.note{
+    background: whitesmoke;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.note p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+form.createNote{
+    position: relative;
+    width: 470px;
+    margin: 30px auto 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+form.createNote input,
+form.createNote textarea{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    resize: none;
+    font-family: inherit;
+
+}
+
+form.createNote button{
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: wheat;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer p{
+    color: wheat;
+    font-family: 'Recursive', sans-serif;
+}
+
+/*font-family: 'Open Sans', sans-serif;
